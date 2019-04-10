@@ -10,8 +10,7 @@ dialogHandle.addEventListener('mousedown', function(evt){
 	};
 	var dragged = false;
 	var onMouseMove = function(moveEvt){
-		moveEvt.preventDefault();
-		console.log('gg');
+		moveEvt.preventDefault(); 
 		dragged = true;
 
 		var shift = {
